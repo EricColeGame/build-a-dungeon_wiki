@@ -1,3 +1,17 @@
-export const NAVIGATION_CONFIG = [] as const;
+export interface NavigationItem {
+  key: string;
+  path: `/${string}`;
+  isContentType: boolean;
+}
 
-export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => (item as { isContentType?: boolean }).isContentType).map((item) => (item as { path: string }).path.replace(/^\//, ""));
+export const NAVIGATION_CONFIG = [
+  { key: "guide", path: "/guide", isContentType: true },
+  { key: "mechanics", path: "/mechanics", isContentType: true },
+  { key: "features", path: "/features", isContentType: true },
+  { key: "platforms", path: "/platforms", isContentType: true },
+  { key: "news", path: "/news", isContentType: true },
+  { key: "community", path: "/community", isContentType: true },
+  { key: "codes", path: "/codes", isContentType: true },
+] as const satisfies readonly NavigationItem[];
+
+export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map((item) => item.path.replace(/^\//, ""));
