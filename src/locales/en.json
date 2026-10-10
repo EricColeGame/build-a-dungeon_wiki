@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Master subterranean excavation, core defense, and early resource management from your very first layout."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Dungeon Builder Basics",
+          "description": "Learn chamber footprints, floor tile integrity, and room synergies to construct an impenetrable lair."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Trap & Layout Defense",
+          "description": "Funnel invading hero parties into lethal chokepoints with serpentine corridors and interlocking trap grids."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Build a Dungeon."
+          "title": "All Codes & Rewards",
+          "description": "Redeem active promo codes for free gold, gems, summon tokens, and building materials to boost expansion."
         }
       ]
     },
@@ -66,237 +66,321 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Dungeon Layouts",
+        "All Codes",
+        "Monster Defense"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Everything you need from your first excavation to mastering the basics of trap defense and dungeon management.",
+          "href": "/guide/build-a-dungeon-beginner-guide"
         },
         {
           "badge": "Updated",
           "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "description": "All working Build a Dungeon codes with free currencies and rewards redeem before they expire.",
+          "href": "/codes/build-a-dungeon-codes"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "title": "Dungeon Builder Mechanics",
+          "description": "Complete guide to tile stability, chamber footprints, and room synergy bonuses.",
+          "href": "/mechanics/build-a-dungeon-dungeon-builder"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Lethal Dungeon Design",
+          "description": "How to design killer mazes, serpentine hallways, and interlocking trap networks.",
+          "href": "/mechanics/build-a-dungeon-dungeon-design"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "title": "Dungeon Management",
+          "description": "Manage minion morale, food supplies, and gold upkeep to keep your fortress running.",
+          "href": "/mechanics/build-a-dungeon-dungeon-management"
         },
         {
           "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Gameplay Tips & Tricks",
+          "description": "Proven architectural tactics, chokepoint strategies, and economy optimization.",
+          "href": "/guide/build-a-dungeon-tips"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Build a Dungeon?",
       "paragraphs": [
-        "Build a Dungeon is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Build a Dungeon is an immersive fantasy dungeon building and management simulator where players step into the role of an underground architect. Design lethal subterranean labyrinths, excavate treasure vaults, place cunning mechanical traps, and garrison vicious monsters to defend your dungeon core against invading adventurers.",
+        "Balance critical resource economies including Gold, Mana, and Food while expanding your territory, optimizing intruder pathfinding, and unlocking advanced room archetypes. Our community wiki provides verified mechanics guides, layout blueprints, code updates, and tactical tips to help you rule the underworld."
       ],
       "stats": [
         {
-          "label": "Developer",
-          "value": "Midnight Continent"
+          "label": "Genre",
+          "value": "Dungeon Simulator"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "Roblox & PC"
         },
         {
-          "label": "Genre",
-          "value": "Fighting RPG"
+          "label": "Core Loop",
+          "value": "Build & Defend"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Defense Modes",
+          "value": "Solo & Co-op"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Update Cycle",
+          "value": "Weekly"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Wiki Guides",
+          "value": "30+ Articles"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Build a Dungeon Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Master your underground fortress with essential dungeon building guides, active promo codes, monster defense rosters, and optimal layout blueprints.",
       "modules": [
         {
           "order": 1,
-          "name": "Build a Dungeon Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/build-a-dungeon-codes",
-          "displayType": "code-box",
+          "name": "Build a Dungeon Beginner Guide",
+          "description": "This module provides new player guides covering the basic gameplay loop, dungeon construction, monster placement, resource management, and early progression tips. It helps beginners understand how to start building effective dungeons and improve their strategy.",
+          "displayType": "step-by-step",
+          "href": "/guide/build-a-dungeon-beginner-guide",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Excavate stone corridors and secure your central dungeon heart core"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Balance Gold, Mana, and Food resource nodes for continuous construction"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Erect goblin barracks and guard posts to summon frontline defenders"
+            },
+            {
+              "label": "4",
+              "detail": "Deploy pressure plates and spike traps along hero invasion routes"
+            },
+            {
+              "label": "5",
+              "detail": "Harvest bounty loot from defeated adventurers to fuel expansion"
+            },
+            {
+              "label": "6",
+              "detail": "Reinforce outer walls with masonry to prevent mining breaches"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/build-a-dungeon-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Build a Dungeon Monsters Guide",
+          "description": "This module introduces available monsters, their abilities, costs, and recommended usage in different dungeon setups. Players can learn which creatures work best for defending against heroes and maximizing rewards.",
+          "displayType": "tier-grid",
+          "href": "/mechanics/build-a-dungeon-dungeon-crawler",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "S",
+              "detail": "Abyssal Golem & Dragon Hatchlings provide unmatched frontline crowd control"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "A",
+              "detail": "Dark Sorcerers and Crossbow Skeletons excel at sustained corridor fire"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "B",
+              "detail": "Goblin Rogues and Dire Wolves ambush isolated stragglers and scouts"
+            },
+            {
+              "label": "C",
+              "detail": "Basic Skeleton Warriors and Giant Bats serve as cheap diversion fodder"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/build-a-dungeon-tier-list",
-          "displayType": "tier-grid",
+          "name": "Build a Dungeon Buildings Guide",
+          "description": "This module covers dungeon buildings, upgrades, and placement strategies. It helps players understand how to optimize their dungeon layout and improve resource generation.",
+          "displayType": "card-list",
+          "href": "/mechanics/build-a-dungeon-dungeon-builder",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Barracks",
+              "detail": "House garrison defenders and speed up minion recruitment"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Armory",
+              "detail": "Equip monsters with upgraded armor and weapons"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Mana Font",
+              "detail": "Generate arcane essence to power magical wards and traps"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Workshop",
+              "detail": "Manufacture mechanical contraptions and wall defenses"
+            },
+            {
+              "label": "Treasury",
+              "detail": "Safeguard mined gold deposits deep within fortified vaults"
+            },
+            {
+              "label": "Hatchery",
+              "detail": "Produce food and sustenance to maintain minion loyalty"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/build-a-dungeon-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Build a Dungeon Codes",
+          "description": "This module is designed for redeem codes and reward information, including free items, currency, and limited-time bonuses. It targets players searching for the latest Build a Dungeon codes.",
+          "displayType": "code-cards",
+          "href": "/codes/build-a-dungeon-codes",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "DUNGEON",
+              "detail": "Redeem for 1,000 Free Gold and Starter Materials",
+              "badge": "Active"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "BUILD2026",
+              "detail": "Redeem for 50 Premium Gems and Speed Buff",
+              "badge": "Active"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "RELEASE",
+              "detail": "Redeem for Monster Summon Token & Blueprint",
+              "badge": "Active"
+            },
+            {
+              "label": "DEFENSE",
+              "detail": "Redeem for 500 Stone & Wall Texture Skin",
+              "badge": "Active"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/build-a-dungeon-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Build a Dungeon Dungeon Layouts",
+          "description": "This module showcases effective dungeon layouts and defensive designs. Players can compare different room arrangements, trap placements, and monster combinations to create stronger defenses.",
+          "displayType": "card-list",
+          "href": "/mechanics/build-a-dungeon-dungeon-design",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Gauntlet",
+              "detail": "Linear corridor forcing invaders through overlapping crossfire"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Serpentine",
+              "detail": "Winding switchback tunnels that reset trap cooldowns"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Killbox",
+              "detail": "Enclosed arena funneled by chokepoints and ranged ambushes"
+            },
+            {
+              "label": "Decoy Hub",
+              "detail": "False treasure vault diverting raiders from the core sanctum"
+            },
+            {
+              "label": "Spoke Net",
+              "detail": "Central defensive plaza connecting outer production wings"
+            },
+            {
+              "label": "DoubleBack",
+              "detail": "Layered trench isolating enemy vanguards from support healers"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/build-a-dungeon-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Build a Dungeon Progression Guide",
+          "description": "This module explains progression systems, upgrades, unlocking paths, and ways to earn resources faster. It helps players plan long-term development and avoid inefficient upgrades.",
+          "displayType": "code-cards",
+          "href": "/guide/build-a-dungeon-tips",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Tier 1",
+              "detail": "Excavate basic dirt corridors and establish gold mining loops"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Tier 2",
+              "detail": "Construct monster barracks and unlock primary dart and spike traps"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Tier 3",
+              "detail": "Reinforce chambers with masonry and expand mana font conduits"
+            },
+            {
+              "label": "Tier 4",
+              "detail": "Automate trap resets, forge elite beasts, and secure the deep vault"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Build a Dungeon Updates",
+          "description": "This module collects official update information, new content releases, balance changes, and event announcements. It keeps players informed about the latest changes from the developer.",
+          "displayType": "card-list",
+          "href": "/news/build-a-dungeon-release",
+          "highlights": [
+            {
+              "label": "Launch V1",
+              "detail": "Official release featuring core building systems and campaign waves"
+            },
+            {
+              "label": "New Traps",
+              "detail": "Added flame vents, frost runes, and rolling boulder mechanisms"
+            },
+            {
+              "label": "Co-op Raid",
+              "detail": "Multiplayer dungeon defense and crawler expedition support"
+            },
+            {
+              "label": "Balancing",
+              "detail": "Adjusted hero AI pathfinding and early chamber excavation costs"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Build a Dungeon Tips and Tricks",
+          "description": "This module provides advanced gameplay tips, optimization methods, and strategy suggestions for improving dungeon performance. It targets players looking for ways to progress faster and build stronger defenses.",
+          "displayType": "card-list",
+          "href": "/guide/build-a-dungeon-gameplay",
+          "highlights": [
+            {
+              "label": "Chokepoint",
+              "detail": "Compress hero parties into single-tile tunnels to negate numbers"
+            },
+            {
+              "label": "Synergy",
+              "detail": "Pair tar pits with flame vents for compounding elemental damage"
+            },
+            {
+              "label": "Adjacency",
+              "detail": "Build armories beside barracks to reduce minion gear craft delay"
+            },
+            {
+              "label": "Sightline",
+              "detail": "Break long hallways with right-angle corners to counter archers"
+            },
+            {
+              "label": "Economy",
+              "detail": "Avoid over-excavating before establishing steady food upkeep"
+            },
+            {
+              "label": "Sanctum",
+              "detail": "Keep the dungeon core isolated behind multi-layered bulkheads"
             }
           ]
         }
@@ -308,23 +392,23 @@
       "items": [
         {
           "question": "What is Build a Dungeon?",
-          "answer": "Build a Dungeon is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Build a Dungeon is a fantasy dungeon building and management simulator where players excavate underground lairs, place lethal traps, recruit monsters, and protect their central core against waves of invading adventurers."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How do you defend your core in Build a Dungeon?",
+          "answer": "Defending your core in Build a Dungeon requires funneling raiders through serpentine corridors, controlling chokepoints with spike and dart traps, and stationing powerful monster guards to ambush weakened heroes."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Where can I find active Build a Dungeon codes?",
+          "answer": "You can find the latest working Build a Dungeon codes on our dedicated Codes page, providing free bonus gold, premium gems, summon tokens, and building supplies."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "What resources are most important in Build a Dungeon?",
+          "answer": "The three foundational resources in Build a Dungeon are Gold for excavating and building chambers, Mana for fueling spells and traps, and Food to feed minions and keep morale high."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Can you play Build a Dungeon with friends in multiplayer?",
+          "answer": "Yes, Build a Dungeon includes cooperative defense and raid mechanics allowing friends to construct shared strongholds and test defensive gauntlets together."
         }
       ]
     },
