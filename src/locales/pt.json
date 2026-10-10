@@ -1,1 +1,493 @@
-{}
+{
+  "site": {
+    "name": "Build a Dungeon Wiki",
+    "shortName": "Build a Dungeon",
+    "tagline": "Guias completos, códigos, atualizações e dicas de simulador",
+    "description": "A Build a Dungeon Wiki oferece guias de construção de masmorras, dicas de jogabilidade, códigos, atualizações e informações completas para ajudar os jogadores a criarem masmorras de fantasia mais poderosas.",
+    "legalNotice": "Wiki não oficial criada por fãs. Feita por jogadores, para jogadores."
+  },
+  "nav": {
+    "home": "Início",
+    "guide": "Guia",
+    "mechanics": "Mecânicas",
+    "features": "Recursos",
+    "platforms": "Plataformas",
+    "news": "Notícias",
+    "community": "Comunidade",
+    "codes": "Códigos",
+    "menu": "Menu",
+    "toggleTheme": "Alternar tema"
+  },
+  "home": {
+    "meta": {
+      "title": "Build a Dungeon Wiki - Códigos, Guias e Atualizações",
+      "description": "A Build a Dungeon Wiki traz guias de construção de masmorras, dicas de gameplay, códigos, atualizações e informações completas."
+    },
+    "hero": {
+      "eyebrow": "Simulador de Construção de Masmorras de Fantasia",
+      "title": "Build a Dungeon Wiki",
+      "description": "Build a Dungeon é um jogo de gerenciamento de fantasia onde os jogadores criam, expandem e personalizam sua própria masmorra, administrando salas, criaturas, recursos e desafios.",
+      "stats": [
+        "Total de visitas",
+        "Unidades disponíveis",
+        "Códigos ativos",
+        "Atualizações semanais"
+      ],
+      "primaryCta": "Guia para iniciantes",
+      "secondaryCta": "Códigos ativos",
+      "tertiaryCta": "Jogar no Roblox",
+      "videoLabel": "Mídia oficial"
+    },
+    "updates": {
+      "title": "Últimas atualizações",
+      "browse": "Explorar todos os guias",
+      "viewAll": "Ver tudo"
+    },
+    "start": {
+      "eyebrow": "Comece aqui",
+      "title": "Sua jornada em Build a Dungeon",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guia para iniciantes",
+          "description": "Domine a escavação subterrânea, a defesa do núcleo e a gestão inicial de recursos desde o seu primeiro layout."
+        },
+        {
+          "number": "2",
+          "title": "Bases da construção",
+          "description": "Aprenda dimensões de salas, integridade de ladrilhos e sinergias entre câmaras para construir um covil impenetrável."
+        },
+        {
+          "number": "3",
+          "title": "Defesa com armadilhas e layout",
+          "description": "Direcione grupos de heróis invasores para estrangulamentos letais com corredores em serpentina e redes de armadilhas interligadas."
+        },
+        {
+          "number": "4",
+          "title": "Todos os códigos e recompensas",
+          "description": "Resgate códigos promocionais ativos para obter ouro grátis, gemas, fichas de invocação e materiais de construção para acelerar a expansão."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Em alta no momento",
+      "quickLinks": [
+        "Guia para iniciantes",
+        "Layouts de masmorra",
+        "Todos os códigos",
+        "Defesa com monstros"
+      ],
+      "cards": [
+        {
+          "badge": "Iniciante",
+          "title": "Guia para iniciantes",
+          "description": "Tudo o que você precisa, desde a primeira escavação até dominar a defesa com armadilhas e a gestão de masmorras.",
+          "href": "/guide/build-a-dungeon-beginner-guide"
+        },
+        {
+          "badge": "Atualizado",
+          "title": "Códigos ativos",
+          "description": "Todos os códigos válidos de Build a Dungeon com moedas e recompensas grátis — resgate antes que expirem.",
+          "href": "/codes/build-a-dungeon-codes"
+        },
+        {
+          "badge": "Popular",
+          "title": "Mecânicas de construção",
+          "description": "Guia completo sobre estabilidade de pisos, dimensões de câmaras e bônus de sinergia entre salas.",
+          "href": "/mechanics/build-a-dungeon-dungeon-builder"
+        },
+        {
+          "badge": "Popular",
+          "title": "Design letal de masmorras",
+          "description": "Como projetar labirintos mortais, corredores sinuosos e redes de armadilhas interconectadas.",
+          "href": "/mechanics/build-a-dungeon-dungeon-design"
+        },
+        {
+          "badge": "Novo",
+          "title": "Gerenciamento de masmorra",
+          "description": "Controle a moral dos lacaios, suprimentos de comida e manutenção de ouro para manter sua fortaleza ativa.",
+          "href": "/mechanics/build-a-dungeon-dungeon-management"
+        },
+        {
+          "badge": "Novo",
+          "title": "Dicas e truques de gameplay",
+          "description": "Táticas arquitetônicas comprovadas, estratégias de estrangulamento e otimização de economia.",
+          "href": "/guide/build-a-dungeon-tips"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "O que é Build a Dungeon?",
+      "paragraphs": [
+        "Build a Dungeon é um simulador imersivo de construção e gerenciamento de masmorras de fantasia onde os jogadores assumem o papel de um arquiteto subterrâneo. Projete labirintos subterrâneos letais, escave cofres de tesouro, posicione armadilhas mecânicas astutas e aloje monstros ferozes para defender o núcleo da sua masmorra contra aventureiros invasores.",
+        "Equilibre economias críticas de recursos como Ouro, Mana e Comida enquanto expande seu território, otimiza o trajeto dos invasores e desbloqueia arquétipos avançados de salas. Nossa wiki comunitária oferece guias de mecânicas verificados, plantas de layout, atualizações de códigos e dicas táticas para ajudar você a governar o submundo."
+      ],
+      "stats": [
+        {
+          "label": "Gênero",
+          "value": "Simulador de Masmorras"
+        },
+        {
+          "label": "Plataforma",
+          "value": "Roblox e PC"
+        },
+        {
+          "label": "Loop principal",
+          "value": "Construir e Defender"
+        },
+        {
+          "label": "Modos de defesa",
+          "value": "Solo e Cooperativo"
+        },
+        {
+          "label": "Ciclo de atualização",
+          "value": "Semanal"
+        },
+        {
+          "label": "Guias na wiki",
+          "value": "30+ Artigos"
+        }
+      ],
+      "cta": "Explorar todos os guias"
+    },
+    "explore": {
+      "title": "Explorar Build a Dungeon Wiki",
+      "description": "Domine sua fortaleza subterrânea com guias essenciais de construção, códigos promocionais ativos, elencos de defesa contra monstros e plantas de layout ideais.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guia para iniciantes de Build a Dungeon",
+          "description": "Este módulo oferece guias para novos jogadores cobrindo o ciclo básico do jogo, construção de masmorras, posicionamento de monstros, gestão de recursos e dicas iniciais.",
+          "displayType": "step-flow",
+          "href": "/guide/build-a-dungeon-beginner-guide",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Escave corredores de pedra e proteja o coração central do núcleo da masmorra"
+            },
+            {
+              "label": "2",
+              "detail": "Equilibre nós de Ouro, Mana e Comida para manter a construção contínua"
+            },
+            {
+              "label": "3",
+              "detail": "Erga quartéis de goblins e postos de guarda para convocar defensores de frente"
+            },
+            {
+              "label": "4",
+              "detail": "Posicione placas de pressão e armadilhas de espinhos ao longo das rotas de invasão"
+            },
+            {
+              "label": "5",
+              "detail": "Colete espólios de aventureiros derrotados para financiar sua expansão"
+            },
+            {
+              "label": "6",
+              "detail": "Reforce paredes externas com alvenaria para evitar invasões por mineração"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guia de monstros de Build a Dungeon",
+          "description": "Este módulo apresenta os monstros disponíveis, suas habilidades, custos e usos recomendados em diferentes configurações de masmorra para maximizar recompensas.",
+          "displayType": "tier-list",
+          "href": "/mechanics/build-a-dungeon-dungeon-crawler",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Golem Abissal e Filhotes de Dragão oferecem controle de grupo incomparável na vanguarda"
+            },
+            {
+              "label": "A",
+              "detail": "Feiticeiros Sombrios e Esqueletos com Besta se destacam em fogo contínuo em corredores"
+            },
+            {
+              "label": "B",
+              "detail": "Gatunos Goblins e Lobos Terríveis emboscam batedores e retardatários isolados"
+            },
+            {
+              "label": "C",
+              "detail": "Guerreiros Esqueleto básicos e Morcegos Gigantes servem como distrações econômicas"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guia de edifícios de Build a Dungeon",
+          "description": "Este módulo aborda construções de masmorra, melhorias e estratégias de posicionamento para otimizar layouts e geração de recursos.",
+          "displayType": "grid",
+          "href": "/mechanics/build-a-dungeon-dungeon-builder",
+          "highlights": [
+            {
+              "label": "Quartel",
+              "detail": "Aloje defensores de guarnição e acelere o recrutamento de lacaios"
+            },
+            {
+              "label": "Armaria",
+              "detail": "Equipe monstros com armaduras e armas melhoradas"
+            },
+            {
+              "label": "Fonte de Mana",
+              "detail": "Gere essência arcana para alimentar proteções mágicas e armadilhas"
+            },
+            {
+              "label": "Oficina",
+              "detail": "Fabrique engenhocas mecânicas e defesas de parede"
+            },
+            {
+              "label": "Tesouraria",
+              "detail": "Proteja depósitos de ouro minerado nas profundezas de cofres fortificados"
+            },
+            {
+              "label": "Criatório",
+              "detail": "Produza alimentos e sustento para manter a lealdade dos seus lacaios"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Códigos de Build a Dungeon",
+          "description": "Este módulo reúne códigos de resgate e detalhes de recompensas, incluindo itens grátis, moedas e bônus temporários para jogadores em busca dos códigos mais recentes.",
+          "displayType": "code-cards",
+          "href": "/codes/build-a-dungeon-codes",
+          "highlights": [
+            {
+              "label": "DUNGEON",
+              "detail": "Resgate por 1.000 de ouro grátis e materiais iniciais",
+              "badge": "Ativo"
+            },
+            {
+              "label": "BUILD2026",
+              "detail": "Resgate por 50 gemas premium e bônus de velocidade",
+              "badge": "Ativo"
+            },
+            {
+              "label": "RELEASE",
+              "detail": "Resgate por ficha de invocação de monstro e planta",
+              "badge": "Ativo"
+            },
+            {
+              "label": "DEFENSE",
+              "detail": "Resgate por 500 de pedra e skin de textura de parede",
+              "badge": "Ativo"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Layouts de masmorra de Build a Dungeon",
+          "description": "Este módulo apresenta modelos comprovados de masmorras e disposições de armadilhas para diversos estilos de jogo com máxima eficiência defensiva.",
+          "displayType": "grid",
+          "href": "/mechanics/build-a-dungeon-dungeon-design",
+          "highlights": [
+            {
+              "label": "Corredor Mortal",
+              "detail": "Corredor linear que força invasores a cruzarem fogo cruzado sobreposto"
+            },
+            {
+              "label": "Serpentina",
+              "detail": "Túneis sinuosos que reiniciam o tempo de recarga de armadilhas"
+            },
+            {
+              "label": "Arena Fatal",
+              "detail": "Área fechada canalizada por estrangulamentos e emboscadas à distância"
+            },
+            {
+              "label": "Câmara Isca",
+              "detail": "Cofre de tesouro falso desviando invasores do santuário do núcleo"
+            },
+            {
+              "label": "Rede Radial",
+              "detail": "Praça central de defesa conectando alas externas de produção"
+            },
+            {
+              "label": "Vala Dupla",
+              "detail": "Trincheira multicamada isolando a vanguarda inimiga dos curandeiros"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guia de progressão de Build a Dungeon",
+          "description": "Este módulo detalha sistemas de progressão, melhorias, rotas de desbloqueio e formas de coletar recursos com mais agilidade para planejamento de longo prazo.",
+          "displayType": "code-cards",
+          "href": "/guide/build-a-dungeon-tips",
+          "highlights": [
+            {
+              "label": "Nível 1",
+              "detail": "Escave corredores básicos de terra e estabeleça rotinas de mineração de ouro"
+            },
+            {
+              "label": "Nível 2",
+              "detail": "Construa quartéis de monstros e desbloqueie armadilhas iniciais de dardos e espinhos"
+            },
+            {
+              "label": "Nível 3",
+              "detail": "Reforce câmaras com alvenaria e expanda condutos de fontes de mana"
+            },
+            {
+              "label": "Nível 4",
+              "detail": "Automatize o rearme de armadilhas, forje feras de elite e proteja o cofre profundo"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Atualizações de Build a Dungeon",
+          "description": "Este módulo compila notas oficiais de atualização, novos conteúdos, ajustes de equilíbrio e avisos de eventos diretamente dos desenvolvedores.",
+          "displayType": "card-list",
+          "href": "/news/build-a-dungeon-release",
+          "highlights": [
+            {
+              "label": "Lançamento V1",
+              "detail": "Lançamento oficial com sistemas centrais de construção e ondas de campanha"
+            },
+            {
+              "label": "Novas Armadilhas",
+              "detail": "Adicionados respiradouros de chamas, runas de gelo e pedregulhos rolantes"
+            },
+            {
+              "label": "Raid Co-op",
+              "detail": "Suporte para defesa multijogador de masmorras e expedições de exploração"
+            },
+            {
+              "label": "Balanceamento",
+              "detail": "Ajustes na rota da IA dos heróis e nos custos iniciais de escavação"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Dicas e truques de Build a Dungeon",
+          "description": "Este módulo traz conselhos avançados de jogabilidade, técnicas de otimização e sugestões táticas para fortalecer defesas e acelerar o progresso.",
+          "displayType": "card-list",
+          "href": "/guide/build-a-dungeon-gameplay",
+          "highlights": [
+            {
+              "label": "Afunilamento",
+              "detail": "Comprima grupos de heróis em túneis de um ladrilho para anular superioridade numérica"
+            },
+            {
+              "label": "Sinergia",
+              "detail": "Combine fossos de piche com lança-chamas para dano elemental amplificado"
+            },
+            {
+              "label": "Adjacência",
+              "detail": "Construa armarias ao lado de quartéis para agilizar o equipamento de lacaios"
+            },
+            {
+              "label": "Linha de visão",
+              "detail": "Quebre corredores longos com esquinas em ângulo reto contra arqueiros"
+            },
+            {
+              "label": "Economia",
+              "detail": "Evite escavar em excesso antes de garantir produção estável de comida"
+            },
+            {
+              "label": "Santuário",
+              "detail": "Mantenha o núcleo da masmorra isolado atrás de comportas blindadas multicamadas"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "description": "Respostas rápidas para as dúvidas mais comuns sobre Build a Dungeon.",
+      "items": [
+        {
+          "question": "O que é Build a Dungeon?",
+          "answer": "Build a Dungeon é um simulador de gestão e construção de masmorras de fantasia onde os jogadores escavam lares subterrâneos, colocam armadilhas mortais, recrutam monstros e protegem seu núcleo central contra hordas de aventureiros invasores."
+        },
+        {
+          "question": "Como defender o seu núcleo em Build a Dungeon?",
+          "answer": "Defender seu núcleo em Build a Dungeon exige direcionar invasores por corredores em serpentina, controlar passagens estreitas com armadilhas de espinhos e dardos, e posicionar guardas monstruosos para emboscar heróis enfraquecidos."
+        },
+        {
+          "question": "Onde posso encontrar códigos ativos de Build a Dungeon?",
+          "answer": "Você pode encontrar os códigos funcionais mais recentes em nossa página dedicada de Códigos, que oferece ouro extra, gemas premium, fichas de invocação e materiais de construção grátis."
+        },
+        {
+          "question": "Quais recursos são os mais importantes em Build a Dungeon?",
+          "answer": "Os três recursos essenciais em Build a Dungeon são o Ouro para escavar e construir câmaras, a Mana para alimentar feitiços e armadilhas, e a Comida para nutrir lacaios e manter a moral elevada."
+        },
+        {
+          "question": "É possível jogar Build a Dungeon com amigos no modo multijogador?",
+          "answer": "Sim, Build a Dungeon conta com mecânicas cooperativas de defesa e incursões, permitindo que amigos construam fortalezas compartilhadas e enfrentem provações defensivas em equipe."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para construir sua masmorra definitiva?",
+      "description": "Do projeto de layouts ao gerenciamento de criaturas e desafios, nossa wiki comunitária oferece guias gratuitos e atualizados.",
+      "primary": "Ler o guia para iniciantes",
+      "secondary": "Jogar no Roblox"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navegação da Wiki",
+    "activeCodes": "Códigos Ativos",
+    "updated": "Atualizado",
+    "viewAllCodes": "Ver todos os códigos",
+    "playOnRoblox": "Jogar no Roblox",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximos Passos",
+    "needHelp": "Precisa de ajuda?",
+    "relatedReading": "Leituras Relacionadas",
+    "relatedGuides": "Guias Relacionados",
+    "readMore": "Ler mais",
+    "officialMedia": "Mídia oficial",
+    "home": "Início",
+    "noGuidesAvailable": "Nenhum guia disponível ainda. Volte em breve!"
+  },
+  "footer": {
+    "aboutTitle": "Build a Dungeon Wiki",
+    "about": "A Build a Dungeon Wiki é uma central de guias independente criada por fãs que aborda plantas de masmorras, criaturas, recursos, códigos ativos e conhecimentos essenciais de jogo.",
+    "quickLinks": "Links Rápidos",
+    "guides": "Guias",
+    "legal": "Legal",
+    "copyright": "2026 Build a Dungeon Wiki. Não afiliado aos criadores do jogo nem ao Roblox.",
+    "description": "Simulador de construção de masmorras de fantasia. Projete masmorras, gerencie criaturas e expanda seu domínio.",
+    "playGame": "Jogar Build a Dungeon",
+    "officialDiscord": "Discord Oficial",
+    "officialYoutube": "YouTube Oficial",
+    "vvBuilder": "Planejador de Masmorras",
+    "beginnerGuide": "Guia para iniciantes",
+    "raceGuides": "Guias de criaturas",
+    "bossGuides": "Guias de chefes",
+    "buildGuide": "Guias de construção",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço"
+  },
+  "guide": {
+    "overviewTitle": "Guias e Detonados de Build a Dungeon",
+    "overviewDescription": "Domine Build a Dungeon com guias iniciais, detonados de jogabilidade, dicas da demonstração e conselhos essenciais de progressão."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecânicas Principais de Build a Dungeon",
+    "overviewDescription": "Explore mecânicas aprofundadas de construção de masmorras, design de layouts, desafios de exploração e sistemas de simulação em Build a Dungeon."
+  },
+  "features": {
+    "overviewTitle": "Recursos do Jogo Build a Dungeon",
+    "overviewDescription": "Descubra os principais recursos de Build a Dungeon, incluindo modos multijogador cooperativos, compatibilidade com consoles e suporte móvel."
+  },
+  "platforms": {
+    "overviewTitle": "Plataformas e Informações de Sistema de Build a Dungeon",
+    "overviewDescription": "Verifique disponibilidade de plataformas e detalhes técnicos de Build a Dungeon no Steam, PC, PS5, Xbox e Nintendo Switch."
+  },
+  "news": {
+    "overviewTitle": "Notícias e Atualizações de Build a Dungeon",
+    "overviewDescription": "Fique por dentro dos últimos anúncios, trailers, datas de lançamento, preços e atualizações de Acesso Antecipado de Build a Dungeon."
+  },
+  "community": {
+    "overviewTitle": "Comunidade e Links de Build a Dungeon",
+    "overviewDescription": "Conecte-se com outros criadores na comunidade de Build a Dungeon no Discord, Reddit e hubs de monitoramento do SteamDB."
+  },
+  "codes": {
+    "overviewTitle": "Códigos e Recompensas de Build a Dungeon",
+    "overviewDescription": "Encontre os códigos promocionais ativos mais recentes, etapas de resgate e recompensas válidas para Build a Dungeon."
+  }
+}
