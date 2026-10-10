@@ -1,0 +1,145 @@
+export const metadata = {
+  title: "Cómo jugar a Build a Dungeon en PC: Guía completa de configuración, controles y rendimiento",
+  description: "Domina la arquitectura subterránea con nuestra guía completa de Build a Dungeon para PC, que incluye especificaciones de hardware, controles, optimización y diseño de niveles.",
+  category: "platforms",
+  date: "2026-10-10",
+}
+
+Diseñar letales laberintos subterráneos, comandar esbirros monstruosos y tender trampas a intrépidos aventureros siempre se ha sentido más natural al utilizar teclado y ratón. Si quieres sumergirte de lleno en este género, dominar la configuración de **Build a Dungeon PC** es el primer paso crítico para disfrutar de sesiones creativas fluidas y sin interrupciones. Ya sea que desees probar extensos complejos de cavernas de varios niveles o simular decenas de oleadas simultáneas de invasores, ejecutar **Build a Dungeon PC** con la configuración adecuada garantiza una edición de cuadrícula con gran capacidad de respuesta y tasas de fotogramas estables.
+
+Jugar en un ordenador de sobremesa o portátil para juegos ofrece claras ventajas para los apasionados de la gestión de mazmorras. La precisión del cursor, los accesos directos rápidos y la fidelidad visual personalizable te permiten expandir tu oscura guarida subterránea sin toparte con cuellos de botella en la simulación. A continuación, encontrarás un desglose exhaustivo de los requisitos de la plataforma, configuraciones de control, métodos de optimización y esquemas de distribución táctica.
+
+---
+
+## Requisitos de hardware y especificaciones del sistema recomendadas para PC
+
+Los títulos de simulación y construcción de mazmorras dependen de dos cargas de trabajo computacionales principales: renderizar complejos conjuntos de casillas con iluminación dinámica activa y procesar sofisticados algoritmos de búsqueda de rutas (pathfinding) para héroes invasores y monstruos errantes. Cuando tu mazmorra se expande en múltiples pisos con trampas interconectadas, el rendimiento de la CPU y el ancho de banda de la memoria se vuelven tan cruciales como tu tarjeta gráfica.
+
+Si tu sistema tiene problemas con el procesamiento de entidades, notarás tirones en la simulación incluso si la tasa de fotogramas por segundo se mantiene alta. La experiencia de los jugadores resalta que los sistemas equipados con procesadores multinúcleo modernos mantienen tasas de refresco lógicas (tick rates) consistentes durante las invasiones masivas de mazmorras en fases avanzadas del juego.
+
+### Tabla comparativa de hardware
+
+| Componente | Requisitos mínimos (1080p / 30 FPS) | Configuración recomendada (1080p / 60 FPS) | Entusiasta de alta simulación (1440p+ / 120 FPS) |
+| :--- | :--- | :--- | :--- |
+| **Sistema operativo** | Windows 10 (64-bit) | Windows 10 / 11 (64-bit) | Windows 11 (64-bit) |
+| **Procesador (CPU)** | Intel Core i3-8100 / AMD Ryzen 3 1200 | Intel Core i5-10400 / AMD Ryzen 5 3600 | Intel Core i7-13700K / AMD Ryzen 7 7800X3D |
+| **Memoria (RAM)** | 8 GB DDR4 | 16 GB DDR4 Dual-Channel | 32 GB DDR5 High-Speed |
+| **Gráficos (GPU)** | NVIDIA GTX 1050 Ti / AMD RX 560 (4 GB) | NVIDIA RTX 2060 / AMD RX 6600 (6 GB+) | NVIDIA RTX 4070 / AMD RX 7800 XT (12 GB+) |
+| **Versión de DirectX** | Versión 11 | Versión 12 | Versión 12 Ultimate |
+| **Espacio de almacenamiento** | 15 GB disponibles (compatible con HDD) | 20 GB disponibles (SSD SATA) | 25 GB disponibles (SSD NVMe M.2) |
+
+Invertir en un almacenamiento rápido en unidad de estado sólido (SSD) reduce drásticamente los tiempos de carga en las transiciones de piso y evita microtirones cuando el juego guarda automáticamente estructuras de salas complejas.
+
+---
+
+## Ajustes gráficos y de rendimiento optimizados para PC
+
+Para aprovechar al máximo tu instalación de **Build a Dungeon PC**, debes equilibrar la iluminación atmosférica con el rendimiento de la física. Los entornos de mazmorras hacen un uso intensivo de sombras dinámicas proyectadas por antorchas, pozos de lava y runas mágicas. Aunque resultan visualmente espectaculares, los pases de sombras no optimizados pueden saturar rápidamente las tarjetas gráficas de gama media durante secuencias con abundantes lanzamientos de hechizos.
+
+Ajustar los parámetros gráficos individuales te permite preservar un alto nivel de detalle en las texturas de los muros de la mazmorra y en los modelos de los monstruos, eliminando al mismo tiempo una sobrecarga de renderizado innecesaria.
+
+### Matriz de configuración gráfica
+
+| Ajuste gráfico | Impacto en rendimiento | Configuración recomendada | Compensación visual y de juego |
+| :--- | :--- | :--- | :--- |
+| **Modo de pantalla** | Bajo | Pantalla completa exclusiva | Minimiza la latencia de entrada y evita los retrasos del compositor de ventanas del escritorio. |
+| **Calidad de sombras** | Alto | Medio | Suaviza las cascadas de sombras sin hundir los fotogramas cerca de conjuntos de antorchas parpadeantes. |
+| **Efectos de partículas de entidades** | Alto | Medio / Alto | Mantiene legibles las explosiones de trampas mágicas sin provocar ralentizaciones en zonas de combate densas. |
+| **Iluminación dinámica** | Muy alto | Alto | Preserva la ambientación de la mazmorra al tiempo que reduce cálculos redundantes de rebote de luz. |
+| **Antialiasing** | Moderado | TAA o SMAA | Elimina los bordes dentados en la mampostería de piedra y los límites del terreno subterráneo. |
+| **Oclusión ambiental** | Moderado | SSAO (Bajo/Medio) | Añade profundidad a las grietas de las cavernas sin sobrecargar excesivamente los shaders. |
+| **Frecuencia de actualización de simulación** | Alto (CPU) | Estándar (60 Hz) | Asegura que la lógica de búsqueda de rutas de los enemigos permanezca sincronizada sin sobrecargar los ciclos de los núcleos. |
+
+Los informes de la comunidad indican que limitar la tasa de fotogramas para que coincida con la tasa de refresco de tu monitor previene picos térmicos innecesarios durante largas sesiones de diseño. Si experimentas caídas inesperadas de fotogramas al colocar grandes canales de agua o magma, reducir la densidad de partículas ofrece una mejora inmediata del rendimiento.
+
+---
+
+## Asignación de teclas y esquemas de control en PC
+
+La precisión lo es todo cuando estás colocando delicados cables de disparo, fosos de púas ocultos y muros de carga. Una configuración de teclado y ratón otorga una velocidad inigualable en comparación con los joysticks analógicos, permitiendo un desplazamiento fluido de la cámara, selección por arrastre de múltiples casillas y zonificación instantánea de habitaciones.
+
+Configurar un esquema de teclas de acceso rápido intuitivo garantiza que nunca pierdas valiosos segundos buscando en menús de construcción anidados mientras un grupo de aventureros asalta las puertas de tu tesorería.
+
+### Asignación de controles esenciales
+
+| Categoría de acción | Tecla predeterminada | Asignación personalizada recomendada | Ventaja táctica |
+| :--- | :--- | :--- | :--- |
+| **Desplazamiento de cámara** | W, A, S, D | W, A, S, D | Navegación clásica por extensos mapas de mazmorras. |
+| **Zoom rápido** | Rueda del ratón | Rueda del ratón | Transición instantánea entre la planificación macro y el trabajo de detalle micro. |
+| **Rotar objeto colocado** | R | R o Botón 4 del ratón | Alineación rápida de trampas de púas direccionales y puertas de pasillo. |
+| **Modo Demoler / Excavar** | X | Shift + Clic izquierdo | Excavación rápida sin abrir repetidamente los paneles de herramientas. |
+| **Selección de zona** | Barra espaciadora | Barra espaciadora | Cambio rápido entre construcción, preparación de trampas y órdenes a criaturas. |
+| **Velocidad del juego** | 1, 2, 3, Pausa (P) | 1, 2, 3, Tilde (~) | Control inmediato del ritmo durante brechas de combate. |
+| **Inventario / Bestiario** | B | Tab | Supervisión instantánea de la moral de los esbirros y los fondos de la tesorería. |
+
+Utilizar los botones macro del ratón para tus órdenes de construcción más frecuentes —como limpiar escombros o reforzar muros— te permite levantar perímetros defensivos en cuestión de segundos. Para los jugadores que comparan interfaces de gestión dentro del género, consultar las discusiones comunitarias en la [plataforma de Steam](https://store.steampowered.com) ofrece una visión excelente sobre los esquemas de control personalizados preferidos por constructores experimentados.
+
+---
+
+## Arquitectura de mazmorras paso a paso y flujo de salas
+
+Construir una fortaleza eficaz requiere mucho más que simplemente cavar pasillos al azar. Cuando inicias las ediciones de **Build a Dungeon PC**, tu objetivo es diseñar un ecosistema subterráneo que equilibre la generación de recursos, el mantenimiento de los esbirros y los puntos de estrangulamiento tácticos.
+
+Un flujo arquitectónico planificado con cuidado evita que los héroes invasores alcancen el núcleo central de tu mazmorra, a la vez que maximiza la eficiencia de tus criaturas trabajadoras.
+
+```
+[Entrada de la mazmorra]
+       │
+       ▼
+[Cámara de tesoro señuelo] ──(Pasillo de flechas letales)──► [Zona de aniquilación]
+                                                                     │
+       ┌─────────────────────────────────────────────────────────────┴────────┐
+       ▼                                                                      ▼
+[Barracones y entrenamiento]                                        [Control de trampas]
+       │                                                                      │
+       └─────────────────────────────► [Núcleo del santuario] ◄───────────────┘
+```
+
+### Tipos de salas estratégicas y distribución
+
+| Categoría de sala | Ubicación estratégica | Nivel de coste / Recursos | Rol funcional de juego |
+| :--- | :--- | :--- | :--- |
+| **Cámara del tesoro** | Interior profundo, tras compuertas blindadas | Alto en oro / Maná | Almacena el botín acumulado; sirve de cebo para ladrones de alto nivel. |
+| **Celdas de tortura / Prisión** | Adyacente a los puestos de guardia | Moderado | Captura a invasores supervivientes para convertirlos en leales defensores o trabajadores. |
+| **Dojo de entrenamiento** | Núcleo central cerca de los aposentos de criaturas | Moderado a Alto | Sube de nivel automáticamente las estadísticas de combate de los esbirros durante intervalos de paz. |
+| **Pasaje de trampas** | Pasillos de aproximación estrechos y serpenteantes | Variable según tipo de trampa | Debilita a los grupos de asalto entrantes mediante gas venenoso, púas de suelo y rocas rodantes. |
+| **Forja de maná** | Nodos de líneas ley subterráneas profundas | Alto coste de investigación | Genera combustible de hechizos para barreras defensivas y habilidades maestras de invocación. |
+
+### 4 reglas arquitectónicas para laberintos letales
+1. **Nunca construyas túneles rectos**: Las líneas directas otorgan a los invasores a distancia una línea de visión despejada. Emplea pasillos en zigzag para forzar a los enemigos a entrar en combate a quemarropa contra tus defensores cuerpo a cuerpo.
+2. **Agrupa trampas con sinergia**: Coloca manchas de aceite justo antes de los chorros de llamas para duplicar el daño elemental infligido.
+3. **Aísla los dormitorios**: Mantén los dormitorios de los esbirros alejados de las zonas de alarma de alto tránsito para evitar que los defensores que descansan sufran penalizaciones de moral.
+4. **Canaliza a través de cuellos de botella de una sola casilla**: Obliga a los grupos de asalto masivos a pasar por espacios estrechos donde los hechizos con daño de área causen el máximo impacto colateral.
+
+A medida que te expandas a mayor profundidad bajo tierra, el mantenimiento periódico de las salas se vuelve imprescindible. Mantén tu tesorería cerca de los aposentos de los monstruos para que el día de cobro no haga que los trabajadores abandonen sus puestos defensivos durante un asedio.
+
+---
+
+## Solución de problemas comunes de rendimiento y bloqueos en PC
+
+Incluso los juegos de gestión bien optimizados pueden enfrentarse a problemas de estabilidad al procesar estados de juego masivos. Si tu sesión de **Build a Dungeon PC** experimenta tirones, texturas faltantes o cierres inesperados al escritorio, determinar si el cuello de botella se origina en la memoria del sistema, los controladores de pantalla o archivos de guardado corruptos te ayudará a restablecer tu mazmorra con rapidez.
+
+### Guía de diagnóstico y resolución
+
+| Síntoma | Causa probable | Resolución paso a paso |
+| :--- | :--- | :--- |
+| **Caídas de FPS en mapas grandes** | Congestión de búsqueda de rutas de la IA o sobrecarga de entidades | Cierra puertas innecesarias; despeja túneles sin salida no excavados para reducir nodos de ruta activos. |
+| **Cierre aleatorio al cambiar de nivel** | Agotamiento de VRAM o fugas de memoria en segundo plano | Reduce la resolución de texturas un nivel; reinicia el juego cada 3 o 4 horas de juego continuo. |
+| **Desincronización del cursor en menús** | Conflicto con el escalado de pantalla de Windows | Haz clic derecho en el ejecutable, ve a Propiedades > Compatibilidad > Cambiar configuración elevada de PPP y marca "Invalidar el comportamiento de escalado de PPP alto". |
+| **Parpadeo en texturas del suelo** | Controladores gráficos desactualizados o fallo en la caché de shaders | Realiza una instalación limpia de los controladores gráficos y elimina las carpetas temporales de caché de shaders en AppData. |
+| **Autoguardados de mazmorra dañados** | Interrupciones en la sincronización en la nube o cierres forzados | Mantén ranuras de guardado manual secuenciales antes de iniciar grandes obras o defenderte de oleadas. |
+
+Verificar periódicamente la integridad de los archivos de instalación local evita que texturas ausentes o mallas rotas provoquen errores al aparecer nuevos tipos de monstruos en el mapa.
+
+---
+
+## Preguntas frecuentes (FAQ)
+
+### ¿Cuáles son los mejores ajustes para ejecutar Build a Dungeon PC de forma fluida en portátiles de gama media?
+Para maximizar la estabilidad en portátiles equipados con gráficos integrados o tarjetas dedicadas de gama de entrada, ajusta la Calidad de sombras y los Efectos de partículas en Bajo, establece la resolución nativa en 1080p y limita la salida de pantalla a 60 FPS. Asegúrate de que el portátil esté conectado a la toma de corriente y funcionando en modo de Alto rendimiento para evitar la limitación térmica de la CPU durante las fases intensas de simulación de esbirros.
+
+### ¿Puedo jugar a Build a Dungeon PC con mando en lugar de teclado y ratón?
+Sí, la mayoría de los juegos de construcción de mazmorras en PC ofrecen compatibilidad nativa con mandos, incluyendo menús radiales y control de cámara mediante los joysticks. No obstante, los jugadores veteranos recomiendan el uso de teclado y ratón debido a la precisión necesaria para excavar casillas en cuadrícula detallada, colocar trampas rápidamente y gestionar de forma selectiva el inventario de los esbirros.
+
+### ¿Cómo soluciono los picos de lag cuando cientos de invasores entran en la mazmorra?
+El retraso durante las invasiones avanzadas suele deberse a los cálculos de búsqueda de rutas de la CPU más que al renderizado gráfico. Puedes mitigar esto sellando pasillos secundarios en desuso con puertas reforzadas, canalizando a los invasores a través de un camino despejado y reduciendo los cálculos de física ambiental secundaria en el menú de opciones gráficas.

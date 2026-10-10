@@ -1,0 +1,132 @@
+export const metadata = {
+  title: "Build a Dungeon Multiplayer Guide: Co-Op Building, Raiding, and Settings",
+  description: "Master Build a Dungeon multiplayer with our complete guide to co-op dungeon creation, PvP raiding, party roles, lobby settings, and troubleshooting.",
+  category: "features",
+  date: "2026-10-10",
+};
+
+Stepping into **Build a Dungeon multiplayer** completely transforms the dungeon creation sandbox into an exhilarating team challenge. Instead of laying spike traps and arranging skeleton cohorts in isolation, you can now team up with friends to architect the ultimate deathtrap or form an adventurer guild to conquer rival player strongholds. Mastering **Build a Dungeon multiplayer** requires both tactical combat synergy and smart architectural planning, ensuring your creations withstand the toughest raiding parties.
+
+Whether you are a master architect drafting intricate maze layouts or a front-line warrior hunting for legendary loot, multiplayer mechanics introduce fresh layers of strategy. From permission management and room budget balancing to boss room synergies, this comprehensive guide covers everything you need to dominate the shared dungeon experience.
+
+---
+
+## Core Multiplayer Modes in Build a Dungeon
+
+Understanding how **Build a Dungeon multiplayer** structures its cooperative and competitive environments is essential before you invite friends into your sanctum. The game splits its networked experience into distinct playstyles, allowing creators and raiders to interact in very different ways.
+
+In cooperative building, multiple players hold architect rights simultaneously. One player might focus on room layout and secret passages, while another places dynamic traps, puzzle triggers, and elite enemy spawners. Conversely, competitive raiding challenges your party to survive community-designed gauntlets under strict life counters, demanding quick reflexes and precise role delegation.
+
+| Game Mode | Ideal Team Size | Core Objective | Hazard Scaling | Primary Rewards |
+| :--- | :--- | :--- | :--- | :--- |
+| **Co-Op Architecture** | 2–4 Builders | Construct, decorate, and balance a functional dungeon layout | Static room budget; no combat scaling | Shared creative blueprints, architect cosmetic trophies |
+| **Party Gauntlet (PvE)** | 3–4 Adventurers | Clear traps, solve environmental puzzles, and defeat the dungeon boss | Mob health and trap density scale dynamically with party count | Rare crafting essence, gear upgrade shards, leaderboard score |
+| **Dungeon Versus (Asymmetric PvP)** | 1 Master vs. 2–3 Raiders | The Dungeon Master triggers traps and summons waves in real time while raiders advance | Active resource generation scales against raider progress | Master dominion points, competitive seasonal rating |
+| **Endless Survival Raid** | 2–4 Adventurers | Survive escalating waves across interconnected custom floorplans | Continuous ramp in mob damage, speed, and hazard frequency | Relic tokens, leaderboard prestige, unique banner icons |
+
+Community reports highlight that while two-player co-op provides the cleanest building experience, four-player dungeon raiding offers the most chaotic and rewarding combat dynamics.
+
+---
+
+## Setting Up and Hosting a Build a Dungeon Multiplayer Session
+
+Getting into an online match should be seamless, but host configuration choices directly influence latency, player permissions, and dungeon integrity. When hosting a session, you dictate who can modify blocks, who can place boss triggers, and how party scaling behaves once the raid begins.
+
+To ensure your lobby runs smoothly without griefing or desync errors, follow these foundational hosting practices:
+
+1. **Select the Right Lobby Visibility**: Set lobbies to "Invite Only" when collaborating on complex structural designs to prevent unwanted public edits.
+2. **Assign Permission Tiers Early**: Use host settings to distinguish between "Architect" (full placement permissions), "Decorator" (cosmetic and lighting placement only), and "Tester" (movement and combat only).
+3. **Calibrate Damage and Friendly Fire**: For chaotic challenge runs, enable friendly trap fire; for casual blueprint design, disable environmental player damage entirely.
+4. **Lock Room Budgets**: Prevent performance drops by locking your total asset cap prior to opening your dungeon to outside test teams.
+
+| Configuration Parameter | Recommended Setting | Impact on Session Performance | Recommended For |
+| :--- | :--- | :--- | :--- |
+| **Session Visibility** | Friends Only / Passworded | Low network overhead; eliminates unauthorized user joins | Private creative collaborations |
+| **Editor Access Control** | Tiered Roles (Host Approval) | Protects underlying logic wiring and spawn nodes from accidental deletion | Complex redstone-style puzzle dungeons |
+| **Dynamic Difficulty Scaling** | Enabled (Auto-Scale) | Adjusts boss HP pools and trap resets based on active player count | Mixed-skill adventuring squads |
+| **Physics Simulation Tick** | High (60 Hz Server Rate) | Ensures moving platforms and dart traps fire with minimal sync latency | Competitive speedrun verification |
+| **Friendly Fire (Traps)** | Disabled for Casual, Active for Hardcore | Alters party pathing and forces staggered single-file navigation | High-stakes seasonal raiding |
+
+---
+
+## Collaborative Dungeon Design: Roles and Room Architectures
+
+Building a memorable dungeon alone takes hours of meticulous block placement. In **Build a Dungeon multiplayer**, distributing responsibilities cuts construction time drastically while creating richer, multi-layered layouts. 
+
+When your team enters the design suite, establish specialized roles. Unorganized building frequently leads to mismatched aesthetics, broken line-of-sight triggers, or rooms that exceed computational asset budgets.
+
+```
+       [ Lead Architect ]
+       /                \
+[ Trap & Puzzle Eng. ]   [ Mob & Boss Tactician ]
+       \                /
+      [ Aesthetic Decorator ]
+```
+
+### The Specialist Breakdown
+
+- **The Lead Architect**: Lays the structural spine—hallways, elevation changes, chokepoints, and branching paths. This player ensures players cannot skip intended progression points.
+- **The Trap & Logic Engineer**: Connects pressure plates, tripwires, and delayed ceiling collapses. In multiplayer, trap engineers specialize in split-party triggers, where one player must hold a mechanism while others advance.
+- **The Mob & Boss Tactician**: Balances enemy density. Instead of dumping forty low-level grunts into a wide room, they place tank units at chokepoints flanked by ranged snipers on high ledges.
+- **The Aesthetic Decorator**: Perfects lighting, wall textures, environmental audio cues, and ambient fog to mask lethal pits and guide explorer sightlines.
+
+| Building Role | Primary Tools & Blocks | Best Room Focus | Key Collaboration Task |
+| :--- | :--- | :--- | :--- |
+| **Lead Architect** | Stone Foundation, Portcullises, Elevation Stairs | Hub rooms, labyrinth corridors, vertical shafts | Sets clear boundaries so teammates do not collide |
+| **Logic Engineer** | Pressure Nodes, Dart Slots, Timed Gates | Puzzle chambers, escape gauntlets, vault rooms | Coordinates with the Architect to hide logic wiring |
+| **Mob Tactician** | Spawn Runes, AI Leash Anchors, Boss Altars | Ambush courtyards, final sanctums, elite arenas | Coordinates with the Decorator to provide line-of-sight covers |
+| **Decorator** | Torch Brackets, Skeletons, Foliage, Audio Emitters | Crypt walkways, hidden passages, entrance gates | Masks tripwires and creates thematic visual language |
+
+Player experience demonstrates that the most lethal dungeons use "pincer architecture," where one builder places a deceptive chest while another hides delayed flame jets along the retreat corridor.
+
+---
+
+## Best Strategies for Conquering Multiplayer Raids
+
+Raiding another creator's fortress tests your communication and team composition. In high-tier player-made levels, you will face devious combinations of environmental hazards, timed spike runs, and punishing boss modifiers that punish solo bravado.
+
+When entering a challenging dungeon run, balance your adventurer archetypes. A party stacked purely with melee damage dealers will quickly succumb to hovering summoners and floor-based poison grates.
+
+| Team Role | Essential Gear Archetype | Primary Raid Duty | Trap Mitigation Strength | Boss Arena Utility |
+| :--- | :--- | :--- | :--- | :--- |
+| **Vanguard (Tank)** | Heavy Plate, Tower Shield, Cleave Weapon | Draws aggro, triggers unavoidable blunt traps with active block | Absorbs arrow volleys, blocks rolling boulder paths | Keeps boss facing away from squishy casters |
+| **Scout / Disarmer** | Light Leather, Daggers, Grapple Kit | Disarms tripwires, spots illusory walls, navigates timed platforming | Neutralizes hidden floor mechanisms and darts | Interrupts casting spells and clears minion adds |
+| **Acolyte (Healer / Buffer)** | Cloth Robes, Focus Staves, Wards | Cleanses bleed/poison debuffs, applies party speed buffs | Deploys damage absorption barriers over hazard zones | Revives fallen allies and maintains team sustain |
+| **Arcanist (DPS / Crowd Control)**| Mage Robes, Elemental Wand, Area Spells | Snipes ranged turrets, freezes swarming mobs, deals boss burst | Destroys explosive barrels from safe distances | Shreds elemental shields during final boss phases |
+
+Before breaching any boss sanctum, assign clear duties: the Scout marks trap triggers, the Vanguard establishes positioning along the perimeter, and the Arcanist reserves mana for summoning phases. 
+
+Always check the room ceiling before looting chests. Experienced dungeon builders intentionally position falling anvil cages or spider drop points directly above golden loot containers.
+
+---
+
+## Troubleshooting Common Connection and Sync Issues
+
+Multiplayer physics can occasionally lead to networking quirks, particularly when several players interact with moving elevators, falling blocks, and rapid-fire dart dispensers at the same time. 
+
+If you encounter rubber-banding or delayed trap activation in your session, you can cross-reference known issues and network workarounds shared across the official [Steam Community Discussions](https://steamcommunity.com/) to verify whether recent game patches address your specific network profile.
+
+| Technical Symptom | Probable Cause | Impact on Gameplay | Verified Solution / Workaround |
+| :--- | :--- | :--- | :--- |
+| **Ghost Trap Triggering** | High packet loss between guest and host | Players take damage seconds after walking past a disabled trap | Switch host to the player with the lowest ping and wired connection; verify 60Hz tick rate. |
+| **Boss Desync / Teleportation** | Heavy physics load from excessive room decorations | Boss AI freezes or rubber-bands across arena barriers | Reduce unnecessary dynamic lighting and particle emitters in the boss arena. |
+| **Failed Lobby Connection** | Strict NAT type or firewall block on UDP ports | Invited party members receive an "Unable to Connect" error | Enable UPnP in router settings or configure direct lobby invites via platform client overlays. |
+| **Block Placement Reversion** | Dual-builder editing conflict on identical tile coordinates | Placed objects disappear and return to inventory | Establish designated build sectors to avoid simultaneous modification of single grid tiles. |
+
+Player experience consistently confirms that hosting on a hardwired Ethernet connection rather than Wi-Fi dramatically lowers trigger desynchronization during intense multi-phase boss fights.
+
+---
+
+## Frequently Asked Questions About Build a Dungeon Multiplayer
+
+### Does Build a Dungeon multiplayer feature cross-platform matchmaking?
+Cross-platform capabilities depend on the platform version you are running. While PC and console players share the same community blueprint repository for downloading custom dungeons, live cooperative building and real-time raiding typically require all players to be on the same platform family unless cross-play toggles are explicitly enabled in network settings.
+
+### How does trap and boss difficulty scale in Build a Dungeon multiplayer?
+In cooperative raiding, the game automatically scales boss health pools and the frequency of minion reinforcements based on the active player count in the lobby. However, mechanical trap damage (such as bottomless pits, crushing walls, and lava troughs) remains uniformly lethal regardless of team size.
+
+### Can visiting players alter my dungeon without my permission?
+No. Hosts retain granular administrative controls. You can set guest permissions to "Spectator," "Raider," or "Co-Builder." Unless you grant explicit building privileges, visitors cannot delete structural walls, alter trap wiring, or collect blueprint assets from your save files.
+
+### What is the maximum lobby capacity for Build a Dungeon multiplayer?
+Standard lobbies support up to four active players for both cooperative building sessions and team-based dungeon crawling. Certain custom community servers can host larger player counts for asymmetric party versus party events, though four players remains the balanced benchmark for optimal network performance and puzzle mechanics.

@@ -6,7 +6,18 @@
     "description": "Build a Dungeon Wiki provides dungeon building guides, gameplay tips, codes, updates, and complete information to help players create stronger fantasy dungeons.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
-  "nav": {},
+  "nav": {
+    "home": "Home",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "features": "Features",
+    "platforms": "Platforms",
+    "news": "News",
+    "community": "Community",
+    "codes": "Codes",
+    "menu": "Menu",
+    "toggleTheme": "Toggle Theme"
+  },
   "home": {
     "meta": {
       "title": "Build a Dungeon Wiki - Codes, Guide & Updates",
@@ -451,11 +462,32 @@
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   },
-  "guide": {},
-  "mechanics": {},
-  "features": {},
-  "platforms": {},
-  "news": {},
-  "community": {},
-  "codes": {}
+  "guide": {
+    "overviewTitle": "Build a Dungeon Guides & Walkthroughs",
+    "overviewDescription": "Master Build a Dungeon with starter guides, gameplay walkthroughs, demo tips, and core progression advice."
+  },
+  "mechanics": {
+    "overviewTitle": "Build a Dungeon Core Mechanics",
+    "overviewDescription": "Explore in-depth mechanics of dungeon building, layout design, crawler challenges, and simulation systems in Build a Dungeon."
+  },
+  "features": {
+    "overviewTitle": "Build a Dungeon Game Features",
+    "overviewDescription": "Discover key features in Build a Dungeon, including co-op multiplayer modes, console compatibility, and mobile support."
+  },
+  "platforms": {
+    "overviewTitle": "Build a Dungeon Platforms & System Info",
+    "overviewDescription": "Check platform availability and system details for Build a Dungeon across Steam, PC, PS5, Xbox, and Nintendo Switch."
+  },
+  "news": {
+    "overviewTitle": "Build a Dungeon News & Updates",
+    "overviewDescription": "Stay updated with the latest Build a Dungeon announcements, trailers, release dates, pricing, and Early Access patches."
+  },
+  "community": {
+    "overviewTitle": "Build a Dungeon Community & Links",
+    "overviewDescription": "Connect with fellow creators in the Build a Dungeon community across Discord, Reddit, and SteamDB tracking hubs."
+  },
+  "codes": {
+    "overviewTitle": "Build a Dungeon Codes & Rewards",
+    "overviewDescription": "Find the latest working promo codes, redeem steps, and active rewards for Build a Dungeon."
+  }
 }

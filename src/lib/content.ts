@@ -247,7 +247,35 @@ const GROUP_TITLES: Record<string, string> = {
 };
 
 // locale → 分组标题映射
-const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {};
+const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {
+  de: {
+    guide: "Leitfaden",
+    mechanics: "Mechaniken",
+    features: "Features",
+    platforms: "Plattformen",
+    news: "Neuigkeiten",
+    community: "Community",
+    codes: "Codes",
+  },
+  es: {
+    guide: "Guía",
+    mechanics: "Mecánicas",
+    features: "Características",
+    platforms: "Plataformas",
+    news: "Noticias",
+    community: "Comunidad",
+    codes: "Códigos",
+  },
+  pt: {
+    guide: "Guia",
+    mechanics: "Mecânicas",
+    features: "Recursos",
+    platforms: "Plataformas",
+    news: "Notícias",
+    community: "Comunidade",
+    codes: "Códigos",
+  },
+};
 
 // locale → "Overview" 翻译
 const OVERVIEW_LABEL_BY_LOCALE: Record<string, string> = {

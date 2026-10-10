@@ -1,0 +1,179 @@
+export const metadata = {
+  title: "Guía de Build a Dungeon para Switch: Controles completos de consola y consejos de diseño",
+  description: "Domina la creación de niveles y la construcción portátil de mazmorras con nuestra completa guía de jugabilidad, controles y rendimiento de Build a Dungeon para Switch.",
+  category: "platforms",
+  date: "2026-10-10",
+};
+
+Crear laberintos tortuosos llenos de trampas, monstruos y tesoros ocultos nunca ha sido tan accesible como llevándote tus diseños a cualquier parte. Para los jugadores que se sumergen en la creación artística de niveles, adquirir las ediciones de **Build a Dungeon switch** convierte cada trayecto diario o sesión relajada en el sofá en un taller de arquitectura. Ya sea colocando fosos de pinchos en el televisor del salón con la consola en la base o equilibrando la aparición de hordas de monstruos en modo portátil, dominar la interfaz de **Build a Dungeon switch** te permite construir desafíos implacables y perfectos en cualquier lugar.
+
+Los juegos de construcción de mazmorras prosperan gracias a la iteración rápida, el mapeo intuitivo y las pruebas de juego inmediatas. Pasar de la precisión del teclado y el ratón a los joysticks analógicos y mandos puede parecer abrumador al principio, pero las optimizaciones a medida para consola hacen que construir salas sea fluido y moderno. Esta guía examina esquemas de control, eficiencia en modo portátil, pruebas de rendimiento y reglas arquitectónicas clave para que puedas crear incursiones en mazmorras inolvidables.
+
+---
+
+## Distribución de controles y navegación en Switch
+
+Diseñar complejos de mazmorras con múltiples salas requiere rapidez y precisión. En PC, los arquitectos dependen de barras de herramientas de arrastrar y soltar y atajos de teclado, pero la distribución de la consola traslada estas mecánicas a menús radiales, accesos directos con los botones superiores y desplazamientos analógicos con ajuste a la cuadrícula.
+
+Al entrar en el modo constructor, tu cursor principal funciona como un puntero flotante libre o como un selector de casillas anclado. La mayoría de los creadores consideran que el modo de cuadrícula anclada es mucho más fiable para la geometría estructural como paredes, abismos y puertas. El modo flotante libre destaca al colocar elementos decorativos, activadores direccionales y cables lógicos complejos.
+
+```
+[Stick izquierdo: Mover cámara] -------- [Stick derecho: Cursor / Apuntar casilla]
+[L / R: Profundidad de capa]     -------- [ZL / ZR: Colocar / Eliminar rápido]
+[Cruceta: Cambiar paleta]        -------- [Botones frontales: Acciones e inspeccionar]
+```
+
+Los reportes de la comunidad destacan que reducir ligeramente la sensibilidad de los sticks durante la colocación de detalles finos evita fallos accidentales. Si tu consola admite entradas táctiles en configuración portátil, tocar directamente en la pantalla acelera considerablemente la generación de paredes.
+
+### Asignación de controles en consola
+
+| Acción / Comando | Entrada en modo portátil / Joy-Con | Asignación en mando Pro | Función de utilidad del constructor |
+| :--- | :--- | :--- | :--- |
+| **Colocar casilla / objeto** | Gatillo ZR | Gatillo ZR | Estampa el terreno, trampa o monstruo activo |
+| **Borrar / Deshacer** | Gatillo ZL / Cruceta izquierda | Gatillo ZL / Cruceta izquierda | Elimina elementos colocados o retrocede un paso |
+| **Abrir paleta de construcción** | Botón X | Botón X | Abre el inventario categorizado (Trampas, Lógica, Enemigos) |
+| **Inspeccionar / Propiedades** | Botón Y | Botón Y | Ajusta PS, rutas de patrulla o retardos de activación |
+| **Cambiar de capa (Suelo/Techo)** | Botones L / R | Botones L / R | Cambia la vista entre sótano, peligros y cableado |
+| **Alternar prueba rápida** | Botón Menos (-) | Botón Menos (-) | Hace aparecer al instante al héroe para probar salas |
+| **Rueda radial de herramientas** | Mantener botón L | Mantener botón L | Cambia rápidamente entre materiales de construcción recientes |
+
+Aprovechar la función de prueba rápida te permite experimentar sin miedo. Cada vez que sospeches que un obstáculo es infranqueable, ponerte en la piel de un aventurero invasor te ahorrará horas de depuración tras la construcción.
+
+---
+
+## Rendimiento en modo portátil frente a modo televisor: Qué esperar
+
+Una pregunta habitual entre los arquitectos que planean una campaña en **Build a Dungeon switch** es cómo afecta la complejidad de las salas a la tasa de fotogramas y a la temperatura del hardware. El juego en modo portátil ofrece comodidad táctil, mientras que jugar en la base despliega la resolución completa en pantallas modernas.
+
+Durante las fases típicas de diseño estructural, renderizar baldosas planas, pasillos de piedra y puertas cerradas apenas supone esfuerzo para el hardware de la consola. Sin embargo, las fuentes de iluminación dinámica —como corrientes de lava, linternas arcanas brillantes y múltiples lanzallamas activos— pueden provocar caídas en el ritmo de fotogramas si se agrupan demasiado.
+
+La experiencia de los jugadores demuestra que mantener las trampas cargadas de partículas repartidas en diferentes subsalas asegura un rendimiento fluido a 60 FPS en ambos formatos. Al trasladar diseños entre configuraciones portátiles y de televisor, mantén equilibrada la geometría de las salas en lugar de acumular docenas de entidades en movimiento en una sola pantalla.
+
+### Desglose de rendimiento del hardware
+
+| Métrica / Parámetro | Modo portátil | Modo televisor (Docked) | Recomendación de diseño |
+| :--- | :--- | :--- | :--- |
+| **Tasa de fotogramas objetivo** | 60 FPS (estándar) / 30 FPS (alta carga) | 60 FPS estables | Espaciar las fuentes de luz dinámica |
+| **Salida de resolución** | 720p nativa | 1080p reescalada | Mantener la escala de la IU al 100% para mayor legibilidad |
+| **Densidad máxima de entidades** | ~60 monstruos activos por zona | ~80 monstruos activos por zona | Usar activadores de aparición en lugar de entidades prerrenderizadas |
+| **Consumo de batería** | Aprox. de 3,5 a 4,5 horas | Alimentación continua por CA | Reducir el brillo del sistema en sesiones de construcción largas |
+| **Soporte de entrada táctil** | Sí (Arrastrar y soltar directo) | Desactivado | Usar el modo portátil para esbozar diseños rápidamente |
+| **Tiempo de carga entre cámaras** | 2,5 – 3,8 segundos | 2,0 – 3,0 segundos | Dividir laberintos gigantescos en alas modulares |
+
+Si notas tirones intermitentes al probar un nivel complejo, revisa tus conexiones lógicas. Los temporizadores en bucle continuo que envían señales constantes a puertas fuera de pantalla consumen más ancho de banda de procesamiento que los cables trampa activados por proximidad.
+
+---
+
+## Diseño de cámaras letales: Reglas arquitectónicas fundamentales
+
+Una mazmorra sobresaliente logra un equilibrio premeditado entre peligros implacables y descubrimientos gratificantes. Los principiantes a menudo abarrotan las salas de entrada con monstruos de élite, creando frustrantes cuellos de botella que desaniman a los invasores. En su lugar, un diseño de niveles inteligente en tu archivo de guardado de **Build a Dungeon switch** debe seguir una escalada progresiva.
+
+### 1. El principio del peligro telegrafiado
+Nunca castigues a los jugadores con una trampa de muerte instantánea, invisible e inevitable. Si una placa de presión activa una lluvia de flechas, proporciona pistas visuales sutiles:
+* Baldosas arañadas alrededor de la placa.
+* Ranuras de flechas vacías a lo largo de la pared de mampostería.
+* Chasquidos rítmicos y distantes.
+
+### 2. Ritmo mediante zonas seguras
+Toda serie agotadora de salas de combate necesita un respiro transitorio. Introduce una armería, una cámara de puzles o un pasillo con una fuente tranquila antes de un gran enfrentamiento contra un guardián. Esta estructura crea expectación al tiempo que permite a los jugadores descansar la mente.
+
+### 3. Verticalidad y línea de visión
+Utiliza plataformas de varios niveles, puentes y fosos hundidos. Situar a los arqueros esqueleto a distancia por encima de los guerreros cuerpo a cuerpo obliga a los jugadores a sortear peligros bajo una presión constante, lo que añade profundidad táctica a los encuentros básicos.
+
+### Tabla de sinergia de trampas y entidades
+
+| Combinación de trampas / elementos | Mecánica de sinergia | Nivel de amenaza | Ubicación ideal en la sala |
+| :--- | :--- | :--- | :--- |
+| **Foso de alquitrán + Chorro de fuego** | El alquitrán ralentiza el movimiento; el fuego prende el residuo acumulado | Alto | Pasillos estrechos con cuello de botella |
+| **Plataforma de rebote + Techo de pinchos** | Impulsa a los jugadores que saltan hacia los pinchos | Extremo | Salas de plataformas con abismos |
+| **Cinta transportadora + Cuchillas de péndulo** | Impide bloquear estático; obliga a calcular los tiempos | Medio | Pasillos de transición |
+| **Cofre falso + Campana de alarma** | Hace aparecer un Mímico mientras alerta a los cuarteles adyacentes | Alto | Nichos de tesoro secretos |
+| **Canal de agua + Pilón de rayos** | Electrifica toda la cuenca de agua al contacto | Letal | Cámaras de puzles con múltiples interruptores |
+
+Combinar propiedades elementales con desplazamientos físicos transforma salas simples en encuentros memorables. Construye tus trampas para que interactúen de forma lógica tanto con los invasores como con los habitantes de la mazmorra.
+
+---
+
+## Comparativas multiplataforma y adecuación al ecosistema
+
+Elegir la edición de consola frente a las plataformas de construcción tradicionales en PC implica concesiones deliberadas entre comodidad y personalización. Aunque las versiones de escritorio suelen destacar por sus comunidades de mods complejas y límites de espacio ilimitados, construir en hardware de consola dedicado ofrece accesibilidad instantánea.
+
+Los jugadores que viajan con frecuencia o prefieren relajarse con un dispositivo portátil encontrarán el ecosistema de **Build a Dungeon switch** excepcionalmente satisfactorio. Puedes consultar los detalles oficiales directamente a través de la tienda [Nintendo eShop store](https://www.nintendo.com/us/store/) para revisar el tamaño de descarga, el guardado en la nube y la disponibilidad regional.
+
+```
+   Portabilidad (Switch) <======> Potencia bruta y precisión (PC)
+  - Construye en cualquier lugar   - Scripts complejos con ratón
+  - Bocetos en pantalla táctil     - Densidad de elementos ilimitada
+  - Partidas rápidas y directas    - Herramientas dedicadas para mods
+```
+
+### Matriz de características: Switch frente a plataformas alternativas
+
+| Categoría de características | Edición Nintendo Switch | Versión Desktop / PC | Otras consolas de sobremesa |
+| :--- | :--- | :--- | :--- |
+| **Portabilidad** | Modos portátil y sobremesa habilitados | Fijo (excepto PCs portátiles) | Fijo |
+| **Entrada principal** | Joy-Con, mando Pro, pantalla táctil | Teclado, ratón, mandos | Mandos con doble stick analógico |
+| **Códigos compartidos con la comunidad** | Red multiplataforma completa | Red multiplataforma completa | Red multiplataforma completa |
+| **Límite de elementos** | Moderado (optimizado para el hardware) | Alto / Configurable | Alto |
+| **Construcción sin conexión** | Sí (se sincroniza al reconectar) | Sí | Sí |
+| **Personalización de la interfaz** | HUD radial optimizado para consola | Menús flotantes multiventana | HUD radial optimizado para consola |
+
+Si construyes niveles principalmente para amigos o clasificaciones comunitarias, la versión de consola ofrece el paquete completo de herramientas de publicación sin renunciar a la facilidad del diseño portátil.
+
+---
+
+## Pruebas de verificación y publicación de tu obra maestra
+
+Antes de compartir tu creación con la red global de aventureros de mazmorras, los sistemas del juego te obligan a completar tu propio nivel de principio a fin. Este paso de verificación obligatorio evita diseños imposibles y bloqueos definitivos en la progresión.
+
+Durante la validación en tu partida de **Build a Dungeon switch**, prueba rutas alternativas en lugar de apresurarte por el camino principal previsto. Es bien sabido que los jugadores descubren saltos de secuencia, atraviesan esquinas y aprovechan fallos involuntarios en los saltos.
+
+```
+Boceto de concepto --> Distribución estructural --> Colocación de trampas --> Prueba de estrés --> Verificación completada --> Publicar código
+```
+
+### Lista de verificación contra exploits (Anti-Cheese)
+
+* [ ] **Flujo de objetos clave:** Asegúrate de que las puertas no puedan eludirse con movimientos estándar sin recoger las llaves designadas.
+* [ ] **Economía de recursos:** Comprueba que los objetos consumibles de maná o curación colocados en salas iniciales no hagan trivial la sala del jefe final.
+* [ ] **Superposición de trampas:** Verifica que múltiples peligros explosivos no lancen al héroe fuera del mapa o fuera de los límites de la cámara.
+* [ ] **Revisión de rendimiento:** Recorre todas las salas en modo portátil para confirmar que no haya caídas graves de fotogramas durante oleadas frenéticas de monstruos.
+* [ ] **Puntos de control:** Coloca santuarios de resurrección antes de grandes picos de dificultad para recompensar la exploración constante.
+
+Una vez que registres una prueba superada limpiamente, el juego generará un código alfanumérico para compartir la mazmorra. Comparte este código en foros comunitarios, grupos de redes sociales y torneos para ver a otros enfrentarse a tu desafío.
+
+---
+
+## Lógica avanzada: Cableado de puertas, palancas y trampas
+
+El verdadero dominio de la construcción de mazmorras surge de la programación dinámica de salas. En lugar de depender únicamente de enemigos estáticos, conectar componentes mecánicos crea acertijos que ponen a prueba tanto el intelecto como los reflejos en combate.
+
+En la interfaz de consola, cambiar a la capa de lógica resalta todos los componentes eléctricos, placas de presión y verjas mecánicas con un cableado de neón brillante. Conectar nodos de entrada con puertas de salida requiere seleccionar el dispositivo disparador y trazar una línea de conexión directa hacia el mecanismo objetivo.
+
+### Funcionalidad de componentes lógicos
+
+| Componente lógico | Tipo de entrada | Salida activada | Aplicación típica |
+| :--- | :--- | :--- | :--- |
+| **Puerta AND** | Requiere 2 o más interruptores activos | Abre el rastrillo de hierro principal | Puzles cooperativos de múltiples palancas |
+| **Inversor (Puerta NOT)** | Activo cuando el interruptor no está presionado | Activa un área de peligro al levantarse el peso | Pedestales de tesoro con trampa |
+| **Repetidor de retardo** | Acepta corriente continua | Envía una señal tras segundos configurables | Jaulas de aparición de monstruos por oleadas |
+| **Sensor de proximidad** | Detecta la distancia del personaje jugador | Cierra la puerta de entrada tras su paso | Arenas de emboscada cerradas |
+| **Nodo de umbral de salud** | Se activa cuando el jefe llega al 50% de PS | Genera esbirros de refuerzo | Encuentros de jefes con múltiples fases |
+
+Al utilizar puertas lógicas de forma limpia, transformas tus creaciones de **Build a Dungeon switch** de pistas de obstáculos predecibles en complejas cajas de acertijos vivientes y reactivas. Mantén el cableado ordenado trazando las rutas por los bordes de las paredes en lugar de cruzar baldosas abiertas en el suelo.
+
+---
+
+## Preguntas frecuentes
+
+### ¿La edición de Build a Dungeon para Switch es compatible con controles táctiles?
+Sí. Al jugar en modo portátil, puedes usar la pantalla táctil capacitiva para trazar paredes, colocar baldosas en el suelo y navegar por los menús de la paleta. Para microajustes finos o cableado lógico, combinar los controles táctiles con los sticks analógicos ofrece el flujo de trabajo más rápido.
+
+### ¿Puedo descargar en Switch niveles creados por jugadores de PC?
+La mayoría de los centros comunitarios utilizan una indexación de códigos multiplataforma, lo que permite a los jugadores de consola importar y jugar mazmorras diseñadas en otros sistemas. Sin embargo, los niveles que superen el límite de presupuesto de elementos de la consola mostrarán un aviso de rendimiento o solicitarán un ajuste automático que reducirá la densidad de elementos antes de cargar.
+
+### ¿Qué debo hacer si mi mazmorra sufre caídas de fotogramas en modo portátil?
+Las caídas en la tasa de fotogramas suelen deberse a una concentración excesiva de luces dinámicas o a demasiadas trampas con proyectiles en movimiento. Para solucionarlo, separa las antorchas y las corrientes de lava, sustituye los chorros continuos de dardos por activadores de proximidad temporizados y asegúrate de que las grandes poblaciones de monstruos aparezcan en oleadas progresivas en lugar de todas a la vez.
+
+### ¿Se pueden construir mazmorras sin conexión a internet?
+Sí. Puedes planificar, diseñar, editar y probar localmente tus mazmorras sin una conexión a internet activa. La conexión a internet solo es necesaria para explorar el repositorio comunitario en línea, descargar niveles de otros usuarios o publicar tus niveles tras superarlos.

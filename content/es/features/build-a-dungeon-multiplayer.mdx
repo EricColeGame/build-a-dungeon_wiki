@@ -1,0 +1,132 @@
+export const metadata = {
+  title: "Guía multijugador de Build a Dungeon: Construcción cooperativa, asaltos y ajustes",
+  description: "Domina el modo multijugador de Build a Dungeon con nuestra guía completa sobre creación cooperativa de mazmorras, asaltos PvP, roles de equipo, configuración de salas y solución de problemas.",
+  category: "features",
+  date: "2026-10-10",
+};
+
+Adentrarse en el **modo multijugador de Build a Dungeon** transforma por completo este sandbox de creación de mazmorras en un emocionante desafío en equipo. En lugar de colocar trampas de pinchos y organizar cohortes de esqueletos en solitario, ahora puedes unirte a tus amigos para diseñar la trampa mortal definitiva o formar un gremio de aventureros para conquistar las fortalezas de jugadores rivales. Dominar el **modo multijugador de Build a Dungeon** requiere tanto sinergia táctica en combate como una planificación arquitectónica inteligente, garantizando que tus creaciones resistan a los grupos de asalto más duros.
+
+Tanto si eres un maestro arquitecto que diseña intrincados laberintos como un guerrero de primera línea en busca de botín legendario, las mecánicas multijugador introducen nuevas capas de estrategia. Desde la gestión de permisos y el equilibrio del presupuesto de salas hasta las sinergias en las salas de jefes, esta guía completa cubre todo lo que necesitas para dominar la experiencia de mazmorras compartidas.
+
+---
+
+## Modos multijugador principales en Build a Dungeon
+
+Entender cómo estructura el **modo multijugador de Build a Dungeon** sus entornos cooperativos y competitivos es fundamental antes de invitar a amigos a tu santuario. El juego divide su experiencia en red en distintos estilos de juego, lo que permite a creadores y asaltantes interactuar de formas muy diversas.
+
+En la construcción cooperativa, varios jugadores disponen de permisos de arquitecto de forma simultánea. Un jugador puede centrarse en la distribución de las salas y los pasadizos secretos, mientras que otro coloca trampas dinámicas, activadores de acertijos y generadores de enemigos de élite. Por el contrario, los asaltos competitivos desafían a tu grupo a sobrevivir a pruebas de fuego diseñadas por la comunidad con contadores de vidas estrictos, lo que exige reflejos rápidos y una asignación precisa de roles.
+
+| Modo de juego | Tamaño ideal del equipo | Objetivo principal | Escalado de peligros | Recompensas principales |
+| :--- | :--- | :--- | :--- | :--- |
+| **Arquitectura cooperativa** | 2–4 constructores | Construir, decorar y equilibrar el diseño de una mazmorra funcional | Presupuesto de sala estático; sin escalado de combate | Planos creativos compartidos, trofeos cosméticos de arquitecto |
+| **Desafío en grupo (PvE)** | 3–4 aventureros | Desactivar trampas, resolver acertijos ambientales y derrotar al jefe de la mazmorra | La salud de los enemigos y la densidad de trampas escalan dinámicamente con el número de jugadores | Esencias de fabricación raras, fragmentos de mejora de equipo, puntuación en tablas de clasificación |
+| **Mazmorra Versus (PvP asimétrico)** | 1 maestro vs. 2–3 asaltantes | El Señor de la Mazmorra activa trampas e invoca oleadas en tiempo real mientras los asaltantes avanzan | La generación activa de recursos escala según el progreso de los asaltantes | Puntos de dominio de maestro, clasificación competitiva de temporada |
+| **Asalto de supervivencia infinita** | 2–4 aventureros | Sobrevivir a oleadas progresivas a través de planos personalizados interconectados | Aumento continuo del daño, la velocidad y la frecuencia de peligros de los enemigos | Fichas de reliquia, prestigio en clasificaciones, iconos de estandarte únicos |
+
+Los informes de la comunidad destacan que, si bien el cooperativo para dos jugadores ofrece la experiencia de construcción más fluida, los asaltos a mazmorras de cuatro jugadores brindan las dinámicas de combate más caóticas y gratificantes.
+
+---
+
+## Configuración y creación de salas multijugador en Build a Dungeon
+
+Unirse a una partida en línea debería ser algo fluido, pero las decisiones de configuración del anfitrión influyen directamente en la latencia, los permisos de los jugadores y la integridad de la mazmorra. Al alojar una sesión, tú determinas quién puede modificar bloques, quién puede colocar activadores de jefes y cómo se comporta el escalado del grupo una vez que comienza el asalto.
+
+Para asegurarte de que tu sala funcione sin problemas, sin troleos ni errores de desincronización, sigue estas prácticas fundamentales de alojamiento:
+
+1. **Selecciona la visibilidad adecuada de la sala**: Configura las salas como "Solo por invitación" cuando colabores en diseños estructurales complejos para evitar ediciones públicas no deseadas.
+2. **Asigna niveles de permisos desde el principio**: Utiliza los ajustes de anfitrión para diferenciar entre "Arquitecto" (permisos completos de colocación), "Decorador" (solo colocación de elementos cosméticos e iluminación) y "Probador" (solo movimiento y combate).
+3. **Calibra el daño y el fuego amigo**: Para carreras de desafío caóticas, activa el fuego amigo de las trampas; para el diseño relajado de planos, desactiva por completo el daño ambiental a los jugadores.
+4. **Bloquea los presupuestos de salas**: Evita caídas de rendimiento limitando el tope total de elementos antes de abrir tu mazmorra a equipos de prueba externos.
+
+| Parámetro de configuración | Ajuste recomendado | Impacto en el rendimiento de la sesión | Recomendado para |
+| :--- | :--- | :--- | :--- |
+| **Visibilidad de la sesión** | Solo amigos / Con contraseña | Baja sobrecarga de red; elimina el acceso de usuarios no autorizados | Colaboraciones creativas privadas |
+| **Control de acceso al editor** | Roles escalonados (Aprobación del anfitrión) | Protege el cableado lógico subyacente y los nodos de aparición frente a eliminaciones accidentales | Mazmorras de acertijos complejas estilo redstone |
+| **Escalado dinámico de dificultad** | Activado (Autoescalado) | Ajusta los puntos de salud de los jefes y el reinicio de trampas según el número de jugadores activos | Escuadrones de aventureros con habilidades mixtas |
+| **Tick de simulación de físicas** | Alto (Tasa de servidor de 60 Hz) | Garantiza que las plataformas móviles y las trampas de dardos se activen con una latencia de sincronización mínima | Verificación de speedruns competitivos |
+| **Fuego amigo (trampas)** | Desactivado para partidas casuales, Activo para modo extremo | Altera el desplazamiento del grupo y obliga a avanzar en fila india escalonada | Asaltos de temporada de alto riesgo |
+
+---
+
+## Diseño colaborativo de mazmorras: roles y arquitectura de salas
+
+Construir una mazmorra memorable en solitario requiere horas de colocación meticulosa de bloques. En el **modo multijugador de Build a Dungeon**, distribuir las responsabilidades reduce drásticamente el tiempo de construcción al tiempo que permite crear distribuciones más ricas y con múltiples niveles. 
+
+Cuando tu equipo acceda a la suite de diseño, establece roles especializados. La construcción desorganizada suele provocar estéticas incoherentes, activadores de línea de visión rotos o salas que superan el presupuesto de recursos computacionales.
+
+```
+       [ Arquitecto jefe ]
+       /                 \
+[ Ing. de trampas y lógica ] [ Táctico de monstruos y jefes ]
+       \                 /
+      [ Decorador estético ]
+```
+
+### Desglose de especialistas
+
+- **El arquitecto jefe**: Diseña la columna vertebral de la estructura: pasillos, desniveles, cuellos de botella y caminos secundarios. Este jugador se asegura de que los aventureros no puedan saltarse los puntos de progresión previstos.
+- **El ingeniero de trampas y lógica**: Conecta placas de presión, cables trampa y derrumbes de techo retardados. En el multijugador, los ingenieros de trampas se especializan en activadores que dividen al grupo, donde un jugador debe sostener un mecanismo mientras los demás avanzan.
+- **El táctico de monstruos y jefes**: Equilibra la densidad de enemigos. En lugar de acumular cuarenta esbirros de nivel bajo en una sala amplia, coloca unidades tanque en cuellos de botella flanqueadas por francotiradores a distancia en cornisas elevadas.
+- **El decorador estético**: Perfecciona la iluminación, las texturas de las paredes, las pistas de audio ambiental y la niebla para ocultar fosas letales y guiar la línea de visión de los exploradores.
+
+| Rol de construcción | Herramientas y bloques principales | Enfoque de sala ideal | Tarea clave de colaboración |
+| :--- | :--- | :--- | :--- |
+| **Arquitecto jefe** | Cimientos de piedra, rastrillos, escaleras de desnivel | Salas centrales, pasillos laberínticos, pozos verticales | Establece límites claros para que los compañeros no choquen entre sí |
+| **Ingeniero de lógica** | Nodos de presión, ranuras de dardos, compuertas temporizadas | Cámaras de acertijos, pruebas de escape, cámaras acorazadas | Se coordina con el arquitecto para ocultar el cableado lógico |
+| **Táctico de monstruos** | Runas de aparición, anclajes de alcance de IA, altares de jefes | Patios de emboscada, santuarios finales, arenas de élite | Se coordina con el decorador para proporcionar coberturas de línea de visión |
+| **Decorador** | Soportes para antorchas, esqueletos, vegetación, emisores de audio | Pasarelas de criptas, pasadizos ocultos, puertas de entrada | Camufla cables trampa y crea un lenguaje visual temático |
+
+La experiencia de los jugadores demuestra que las mazmorras más letales utilizan una "arquitectura de pinza", donde un constructor coloca un cofre engañoso mientras otro esconde chorros de fuego retardados a lo largo del pasillo de retirada.
+
+---
+
+## Las mejores estrategias para conquistar asaltos multijugador
+
+Asaltar la fortaleza de otro creador pone a prueba tu comunicación y la composición de tu equipo. En los niveles de alto rango creados por jugadores, te enfrentarás a retorcidas combinaciones de peligros ambientales, carreras cronometradas sobre pinchos y exigentes modificadores de jefes que castigan las heroicidades individuales.
+
+Al entrar en una incursión desafiante, equilibra los arquetipos de tus aventureros. Un grupo compuesto exclusivamente por atacantes cuerpo a cuerpo sucumbirá rápidamente ante invocadores flotantes y rejillas de veneno en el suelo.
+
+| Rol de equipo | Arquetipo de equipo esencial | Función principal en el asalto | Eficacia mitigando trampas | Utilidad en la arena del jefe |
+| :--- | :--- | :--- | :--- | :--- |
+| **Vanguardia (Tanque)** | Placas pesadas, escudo pavés, arma de hendidura | Atrae la atención del enemigo, activa trampas contundentes inevitables con bloqueo activo | Absorbe ráfagas de flechas, bloquea la trayectoria de rocas rodantes | Mantiene al jefe de espaldas a los lanzadores de conjuros vulnerables |
+| **Explorador / Desactivador** | Cuero ligero, dagas, equipo de gancho | Desactiva cables trampa, detecta paredes ilusorias, supera secciones de plataformas cronometradas | Neutraliza dardos y mecanismos ocultos en el suelo | Interrumpe lanzamientos de hechizos y elimina esbirros adicionales |
+| **Acólito (Sanador / Apoyo)** | Túnicas de tela, bastones de enfoque, protecciones | Purifica desventajas de sangrado/veneno, otorga mejoras de velocidad al grupo | Despliega barreras de absorción de daño sobre zonas de peligro | Reanima a aliados caídos y mantiene la supervivencia del equipo |
+| **Arcanista (DPS / Control de masas)** | Túnicas de mago, varita elemental, hechizos de área | Elimina torretas a distancia, congela hordas de enemigos, inflige daño explosivo al jefe | Destruye barriles explosivos desde distancias seguras | Destroza escudos elementales durante las fases finales del jefe |
+
+Antes de irrumpir en el santuario de un jefe, asigna tareas claras: el explorador marca los activadores de trampas, la vanguardia toma posiciones a lo largo del perímetro y el arcanista reserva maná para las fases de invocación. 
+
+Revisa siempre el techo de la sala antes de abrir cofres. Los constructores experimentados posicionan intencionadamente jaulas de yunques que caen o puntos de descenso de arañas directamente sobre los contenedores de botín dorado.
+
+---
+
+## Solución de problemas comunes de conexión y sincronización
+
+La física en el modo multijugador a veces puede provocar fallos de red imprevistos, especialmente cuando varios jugadores interactúan al mismo tiempo con ascensores móviles, bloques que caen y dispensadores de dardos de disparo rápido. 
+
+Si experimentas retrasos de posición (rubber-banding) o una activación tardía de las trampas en tu sesión, puedes cotejar los problemas conocidos y las soluciones temporales compartidas en las [Discusiones de la comunidad de Steam](https://steamcommunity.com/) oficiales para comprobar si los parches recientes del juego abordan tu configuración de red específica.
+
+| Síntoma técnico | Causa probable | Impacto en el juego | Solución verificada / Alternativa |
+| :--- | :--- | :--- | :--- |
+| **Activación fantasma de trampas** | Gran pérdida de paquetes entre el invitado y el anfitrión | Los jugadores reciben daño segundos después de pasar por una trampa desactivada | Cambia el anfitrión al jugador con el ping más bajo y conexión por cable; verifica la tasa de refresco a 60 Hz. |
+| **Desincronización / Teletransporte de jefes** | Sobrecarga de físicas por exceso de decoración en la sala | La IA del jefe se congela o sufre tirones a través de las barreras de la arena | Reduce la iluminación dinámica innecesaria y los emisores de partículas en la arena del jefe. |
+| **Error al conectar a la sala** | Tipo de NAT estricto o bloqueo de puertos UDP en el firewall | Los miembros invitados reciben el error "No se puede conectar" | Activa UPnP en la configuración del router o configura invitaciones directas a través de la interfaz de la plataforma. |
+| **Reversión en la colocación de bloques** | Conflicto de edición entre dos constructores en las mismas coordenadas | Los objetos colocados desaparecen y vuelven al inventario | Establece sectores de construcción asignados para evitar la modificación simultánea de la misma casilla de la cuadrícula. |
+
+La experiencia de los jugadores confirma reiteradamente que alojar la partida a través de una conexión Ethernet por cable en lugar de Wi-Fi reduce drásticamente la desincronización de activadores durante combates intensos contra jefes de múltiples fases.
+
+---
+
+## Preguntas frecuentes sobre el modo multijugador de Build a Dungeon
+
+### ¿Cuenta el modo multijugador de Build a Dungeon con emparejamiento multiplataforma?
+Las funciones multiplataforma dependen de la versión que estés ejecutando. Aunque los jugadores de PC y consolas comparten el mismo repositorio de planos comunitarios para descargar mazmorras personalizadas, la construcción cooperativa en vivo y los asaltos en tiempo real suelen requerir que todos los jugadores pertenezcan a la misma familia de plataformas, a menos que el juego cruzado esté expresamente activado en los ajustes de red.
+
+### ¿Cómo escala la dificultad de las trampas y los jefes en el multijugador de Build a Dungeon?
+En los asaltos cooperativos, el juego ajusta automáticamente los puntos de vida de los jefes y la frecuencia de refuerzos de esbirros según la cantidad de jugadores activos en la sala. Sin embargo, el daño de las trampas mecánicas (como fosos sin fondo, paredes trituradoras y canales de lava) sigue siendo uniformemente letal sin importar el tamaño del equipo.
+
+### ¿Pueden los jugadores visitantes modificar mi mazmorra sin mi permiso?
+No. Los anfitriones conservan controles administrativos detallados. Puedes configurar los permisos de los invitados como "Espectador", "Asaltante" o "Coconstructor". A menos que concedas privilegios de construcción explícitos, los visitantes no podrán eliminar muros estructurales, modificar el cableado de trampas ni obtener planos de tus archivos de guardado.
+
+### ¿Cuál es la capacidad máxima de la sala en el multijugador de Build a Dungeon?
+Las salas estándar admiten hasta cuatro jugadores activos, tanto para sesiones de construcción cooperativa como para incursiones en mazmorras por equipos. Ciertos servidores comunitarios personalizados pueden albergar a un mayor número de jugadores para eventos asimétricos de grupo contra grupo, aunque cuatro jugadores sigue siendo la referencia equilibrada para un rendimiento de red óptimo y una resolución adecuada de acertijos.
