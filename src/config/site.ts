@@ -26,12 +26,12 @@ export const siteConfig: SiteConfig = {
   description: "Build a Dungeon Wiki provides dungeon building guides, gameplay tips, codes, updates, and complete information to help players create stronger fantasy dungeons.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://build-a-dungeon.wiki",
   supportEmail: "support@build-a-dungeon.wiki",
-  gameUrl: "https://www.roblox.com/",
+  gameUrl: "https://www.roblox.com/games/119238997901301/Build-a-Dungeon",
   heroVideoId: "0wJvHkVJykc", // Build a Dungeon gameplay video
   social: {
     discord: "https://discord.com/",
     youtube: "https://www.youtube.com/",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "pt", "es", "de"],
   defaultLocale: "en",
 };
